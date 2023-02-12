@@ -1,0 +1,1 @@
+enum DebuggerMode { bar, bubble }
