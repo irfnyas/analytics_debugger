@@ -1,11 +1,9 @@
 package com.solusibejo.analytics_debugger
 
 import android.app.Activity
-import android.app.Application
 import androidx.annotation.NonNull
-import app.avo.androidanalyticsdebugger.DebuggerManager
 import com.solusibejo.analytics_debugger.consts.MethodNames
-
+import com.solusibejo.analytics_debugger.debugger.DebuggerManager
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -55,7 +53,8 @@ class AnalyticsDebuggerPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
     activity = binding.activity
-    debugger = DebuggerManager(activity!!)
+    debugger =
+      DebuggerManager()
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
@@ -64,7 +63,8 @@ class AnalyticsDebuggerPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
   override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
     activity = binding.activity
-    debugger = DebuggerManager(activity!!)
+    debugger =
+      DebuggerManager()
   }
 
   override fun onDetachedFromActivity() {

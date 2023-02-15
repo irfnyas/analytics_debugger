@@ -1,3 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.solusibejo.analytics_debugger">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.solusibejo.analytics_debugger">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".event_list.DebuggerEventsListActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
+    </application>
 </manifest>

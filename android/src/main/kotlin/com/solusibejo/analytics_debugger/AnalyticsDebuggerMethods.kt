@@ -1,11 +1,10 @@
 package com.solusibejo.analytics_debugger
 
 import android.app.Activity
-import app.avo.androidanalyticsdebugger.DebuggerManager
-import app.avo.androidanalyticsdebugger.DebuggerMode
-import app.avo.androidanalyticsdebugger.EventProperty
-import app.avo.androidanalyticsdebugger.PropertyError
 import com.solusibejo.analytics_debugger.consts.Arguments
+import com.solusibejo.analytics_debugger.debugger.DebuggerManager
+import com.solusibejo.analytics_debugger.debugger.DebuggerMode
+import com.solusibejo.analytics_debugger.model.EventProperty
 import io.flutter.plugin.common.MethodCall
 
 object AnalyticsDebuggerMethods {
@@ -51,8 +50,7 @@ object AnalyticsDebuggerMethods {
         debugger.publishEvent(
             id.toLong(),
             name,
-            events,
-            emptyList(),
+            events
         )
     }
 }
