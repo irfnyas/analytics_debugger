@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
               title: const Text('Show'),
               onTap: () => AnalyticsDebugger.show(
                 isSystemWide: false,
-                mode: DebuggerMode.bubble,
+                mode: DebuggerMode.bar,
               ),
             ),
             ListTile(

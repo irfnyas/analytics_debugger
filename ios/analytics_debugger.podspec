@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'analytics_debugger'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.version          = '1.0.0'
+  s.summary          = 'The iOS analytics debugger'
   s.description      = <<-DESC
-A new Flutter plugin project.
+  Togglable UI to show list of background events, useful to check analytics events in debug builds for ios.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/chandrabezzo/ios-analytics-debugger.git'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Solusi Bejo (https://www.solusibejo.com)' => 'chandrashibezzo@gmail.com' } }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

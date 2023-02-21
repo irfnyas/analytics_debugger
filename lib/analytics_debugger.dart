@@ -5,6 +5,9 @@ import 'src/debugger_mode.dart';
 export 'src/debugger_mode.dart';
 
 class AnalyticsDebugger {
+  /// To show toggleable UI. [isSystemWide] will impact for Android only.
+  /// By default debugger [mode] will selected to bubble. You can change
+  /// the UI with bar.
   static void show({
     bool isSystemWide = false,
     DebuggerMode mode = DebuggerMode.bubble,
@@ -14,10 +17,11 @@ class AnalyticsDebugger {
         mode: mode,
       );
 
+  ///To hide toggleable UI
   static void hide() => AnalyticsDebuggerPlatform.instance.hide();
 
+  ///[send] anything value to toggleable UI
   static void send({
-    double? id,
     required String name,
     Map<String, dynamic>? values,
   }) =>

@@ -1,3 +1,3 @@
-## 0.0.1
-
-* TODO: Describe initial release.
+## 1.0.0
+* Analytics Debugger for Android
+* Analytics Debugger for iOS
