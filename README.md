@@ -22,12 +22,10 @@ To send anything values to toggleable UI in your app just call `AnalyticsDebugge
 
 ## Android
 For Android, in `show` method we can configure `isSystemWide` true or false. The debugger view will become a system-wide overlay. Might be useful if you want to see events while your app is in background. But, you need enable `Draw over other apps` in Settings -> Apps -> Your App.
-Example:
-https://user-images.githubusercontent.com/16184998/220381035-fc21c461-f6e4-46ae-a702-e3fc430bd75d.mp4
+![The example app running in Android](https://user-images.githubusercontent.com/16184998/220381035-fc21c461-f6e4-46ae-a702-e3fc430bd75d.mp4?raw=true)
 
 ## iOS
-Example:
-https://user-images.githubusercontent.com/16184998/220381048-df5a6e95-176d-45ac-a392-925a3a7ea8f1.mp4
+![The example app running in iOS](https://user-images.githubusercontent.com/16184998/220381048-df5a6e95-176d-45ac-a392-925a3a7ea8f1.mp4?raw=true)
 
 ## Getting involved
 First of all, thank you for even considering to get involved. You are a real super :star:  and we :heart:  you!
