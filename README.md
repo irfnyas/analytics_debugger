@@ -21,10 +21,13 @@ To hide toggleable UI in your app just call `AnalyticsDebugger.hide` once.
 To send anything values to toggleable UI in your app just call `AnalyticsDebugger.send`. Value will identified automatically by time. Every value must have a name with optional params. We can send anything value in `Map` to our toggleable UI.
 
 ## Android
-For Android, in `show` method we can configure `isSystemWide` true or false. The debugger view will become a system-wide overlay. Might be useful if you want to see events while your app is in background. But, you need enable `Draw over other apps` in Settings -> Apps -> Your App.
+
 ![Android Analytics Debugger](https://user-images.githubusercontent.com/16184998/220386292-2cac400d-f6f8-4a7c-a26f-f6c76068493a.gif?raw=true)
 
+For Android, in `show` method we can configure `isSystemWide` true or false. The debugger view will become a system-wide overlay. Might be useful if you want to see events while your app is in background. But, you need enable `Draw over other apps` in Settings -> Apps -> Your App.
+
 ## iOS
+
 ![IOS Analytics Debugger](https://user-images.githubusercontent.com/16184998/220386376-c4b7b52e-03c3-4592-a8fb-d82202731ccd.gif?raw=true)
 
 ## Getting involved
