@@ -38,7 +38,6 @@ object AnalyticsDebuggerMethods {
         debugger: DebuggerManager,
         call: MethodCall,
     ){
-        val id = call.argument<Int>(Arguments.id)!!
         val name = call.argument<String>(Arguments.name)!!
         val values = call.argument<Map<String, Any>?>(Arguments.values)!!
 
@@ -48,7 +47,7 @@ object AnalyticsDebuggerMethods {
         }
 
         debugger.publishEvent(
-            id.toLong(),
+            System.currentTimeMillis(),
             name,
             events
         )

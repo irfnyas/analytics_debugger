@@ -4,18 +4,18 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'analytics_debugger'
-  s.version          = '1.0.0'
-  s.summary          = 'Tools for analytics debugger.'
+  s.version          = '0.0.1'
+  s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/chandrabezzo/analytics_debugger'
+  s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Solusi Bejo' => 'chandrashibezzo@gmail.com' }
+  s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'IosAnalyticsDebugger'
+  s.dependency 'AnalyticsDebugger'
   s.platform = :ios, '9.0'
 
   # Flutter.framework does not contain a i386 slice.

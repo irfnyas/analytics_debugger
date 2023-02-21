@@ -20,10 +20,8 @@ class AnalyticsDebugger {
     double? id,
     required String name,
     Map<String, dynamic>? values,
-    Map<String, dynamic>? errors,
   }) =>
       AnalyticsDebuggerPlatform.instance.send(
-        id: id,
         name: name,
         values: values,
       );

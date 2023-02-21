@@ -30,12 +30,10 @@ class MethodChannelAnalyticsDebugger extends AnalyticsDebuggerPlatform {
 
   @override
   void send({
-    double? id,
     required String name,
     Map<String, dynamic>? values,
   }) {
     final arguments = <String, dynamic>{
-      Arguments.id: id ?? DateTime.now().millisecond,
       Arguments.name: name,
       Arguments.values: values,
     };

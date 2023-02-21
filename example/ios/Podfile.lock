@@ -1,9 +1,9 @@
 PODS:
-  - analytics_debugger (1.0.0):
+  - analytics_debugger (0.0.1):
+    - AnalyticsDebugger
     - Flutter
-    - IosAnalyticsDebugger
+  - AnalyticsDebugger (0.0.1)
   - Flutter (1.0.0)
-  - IosAnalyticsDebugger (1.2.3)
 
 DEPENDENCIES:
   - analytics_debugger (from `.symlinks/plugins/analytics_debugger/ios`)
@@ -11,7 +11,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - IosAnalyticsDebugger
+    - AnalyticsDebugger
 
 EXTERNAL SOURCES:
   analytics_debugger:
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  analytics_debugger: 9e85052f55d44c0af80f1e2d24b341f93bf19757
+  analytics_debugger: d1bde251ea268cf5a26e35d35c135dd30b037762
+  AnalyticsDebugger: f6e4b5f4392652eaac0f3f65b0176dbe2c035cb2
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  IosAnalyticsDebugger: 9d4854b61b845c5c5f66fba99a8b3edace1386d0
 
 PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
 

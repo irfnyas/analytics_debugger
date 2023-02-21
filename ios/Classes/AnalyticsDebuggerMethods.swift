@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import IosAnalyticsDebugger
 import Flutter
+import AnalyticsDebugger
 
 class AnalyticsDebuggerMethods {
     static func show(
@@ -38,7 +38,6 @@ class AnalyticsDebuggerMethods {
     ){
         let args = call.arguments as! [String : Any]
         
-        let id = args[Arguments.id] as! Int
         let name = args[Arguments.name] as! String
         let params = args[Arguments.values] as? [String: Any]
         
@@ -49,14 +48,11 @@ class AnalyticsDebuggerMethods {
             }
             return values
         }
-        
-        let debuggerErrors = [DebuggerPropError]()
     
         debugger.publishEvent(
             name,
             withTimestamp: NSNumber(value: NSDate().timeIntervalSince1970),
-            withProperties: events ?? [DebuggerProp](),
-            withErrors: debuggerErrors
+            withProperties: events ?? [DebuggerProp]()
         )
     }
 }

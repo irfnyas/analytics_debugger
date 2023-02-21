@@ -1,6 +1,6 @@
 import Flutter
 import UIKit
-import IosAnalyticsDebugger
+import AnalyticsDebugger
 
 public class AnalyticsDebuggerPlugin: NSObject, FlutterPlugin {
     

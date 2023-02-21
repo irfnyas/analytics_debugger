@@ -33,7 +33,6 @@ abstract class AnalyticsDebuggerPlatform extends PlatformInterface {
   void hide() => throw UnimplementedError('hide() has not been implemented.');
 
   void send({
-    double? id,
     required String name,
     Map<String, dynamic>? values,
   }) =>
