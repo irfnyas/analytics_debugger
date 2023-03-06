@@ -1,5 +1,5 @@
 PODS:
-  - analytics_debugger (0.0.1):
+  - analytics_debugger (1.0.0):
     - AnalyticsDebugger
     - Flutter
   - AnalyticsDebugger (0.0.1)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  analytics_debugger: d1bde251ea268cf5a26e35d35c135dd30b037762
+  analytics_debugger: 511c8cb5d16a3036e63a27bc866b8e98641866b3
   AnalyticsDebugger: f6e4b5f4392652eaac0f3f65b0176dbe2c035cb2
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
 
