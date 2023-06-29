@@ -34,7 +34,6 @@
         android:layout_marginTop="6dp"
         android:paddingBottom="6dp"
         android:layout_toRightOf="@id/prop_name"
-        android:gravity="end"
         tools:text="{'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value}"
         android:textColor="@color/foreground"
         tools:ignore="RelativeOverlap" />
