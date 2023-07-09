@@ -6,19 +6,20 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
+        android:id="@+id/prop_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/prop_description"
+        android:orientation="vertical"
         >
 
     <TextView
         android:id="@+id/prop_name"
-        android:layout_width="88dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="6dp"
-        android:paddingBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="8dp"
         tools:text="Comment Id"
         android:textStyle="bold"
         android:textColor="@color/foreground"
@@ -26,13 +27,11 @@
 
     <TextView
         android:id="@+id/prop_value"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginTop="6dp"
-        android:paddingBottom="6dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingBottom="8dp"
         android:layout_toRightOf="@id/prop_name"
         tools:text="{'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value}"
         android:textColor="@color/foreground"
