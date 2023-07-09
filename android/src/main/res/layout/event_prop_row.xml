@@ -36,6 +36,7 @@
         android:layout_toRightOf="@id/prop_name"
         tools:text="{'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value, 'key': value}"
         android:textColor="@color/foreground"
+        android:typeface="monospace"
         tools:ignore="RelativeOverlap" />
 
     </LinearLayout>
